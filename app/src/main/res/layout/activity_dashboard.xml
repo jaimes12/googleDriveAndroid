@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/startImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="182dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/sample_image_desc"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/uploadPhotosButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subir Fotos" />
+
+        <Button
+            android:id="@+id/uploadVideosButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subir Videos"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/uploadDocsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subir Documentos"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/viewFilesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Archivos"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/deleteFilesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar Archivos"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</LinearLayout>

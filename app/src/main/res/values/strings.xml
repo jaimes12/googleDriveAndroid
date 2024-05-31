@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GoogleDriveApp</string>
+    <string name="logo_desc">Logo de la aplicación</string>
+    <string name="sample_image_desc">Imagen de muestra</string>
+</resources>
